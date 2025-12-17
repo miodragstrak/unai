@@ -11,6 +11,7 @@ export default function Hero() {
 
         <img src={Logo} className="hero-logo" alt="logo" />
 
+        <div className="promo-badge hero-promo">{t("programs.mentoring_promo")}</div>
         <h1>{t("hero.title")}</h1>
         <p>{t("hero.subtitle")}</p>
 

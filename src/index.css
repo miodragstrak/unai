@@ -356,3 +356,18 @@ ul li::before {
 .flag-icon:active {
   transform: scale(0.95);
 }
+
+.promo-badge {
+  display: inline-block;
+  background: #e6f4ec;        /* svetlo zelena */
+  color: #0a3a1c;             /* tvoja tamna zelena */
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 999px;
+  margin-bottom: 12px;
+}
+
+.hero-promo {
+  margin-bottom: 16px;
+}

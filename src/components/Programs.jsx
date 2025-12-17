@@ -18,9 +18,10 @@ export default function Programs() {
         </div>
 
         <div className="card">
+          <div className="promo-badge">{t("programs.mentoring_promo")}</div>
           <h3>{t("programs.mentoring_title")}</h3>
           <p>{t("programs.mentoring_text")}</p>
-          <a href={CALENDLY_MENTORING} target="_blank" rel="noopener noreferrer" className="button small">{t("programs.mentoring_cta")}</a>
+          <a href={t("programs.mentoring_url")} target="_blank" rel="noopener noreferrer" className="button small">{t("programs.mentoring_cta")}</a>
         </div>
 
         <div className="card">
