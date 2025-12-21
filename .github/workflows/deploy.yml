@@ -24,7 +24,6 @@ jobs:
       - name: Build Vite project
         run: npm run build
 
-      # ✅ Kreira CNAME u build folderu (GitHub Pages koristi ga da poveže custom domain)
       - name: Add CNAME file
         run: echo "unai.digital" > dist/CNAME
 
