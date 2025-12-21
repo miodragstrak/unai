@@ -1,23 +1,41 @@
-# Logs
-logs
-*.log
+# =========================
+# NODE / BUILD
+# =========================
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# =========================
+# LOGS / TEMP
+# =========================
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
-lerna-debug.log*
-
-node_modules
-dist-ssr
-*.local
-
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+*.log
 .DS_Store
+
+# =========================
+# ENV / SECRETS
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# IDE / OS
+# =========================
+.vscode/
+.idea/
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# =========================
+# VITE / GITHUB PAGES NOTE
+# =========================
+# dist/ je ignorisan, ali GitHub Actions će ga automatski generisati tokom builda.
+# Nema potrebe da se ručno commituje build.
