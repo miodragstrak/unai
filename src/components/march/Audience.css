@@ -1,0 +1,41 @@
+.march-audience {
+  padding: 100px 20px;
+  background: #ffffff;
+}
+
+.march-audience-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.audience-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 30px;
+}
+
+.audience-card {
+  padding: 30px;
+  border-radius: 10px;
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+}
+
+.audience-card h3 {
+  margin-bottom: 12px;
+  font-size: 18px;
+  color: #111827;
+}
+
+.audience-card p {
+  font-size: 14px;
+  color: #4b5563;
+  line-height: 1.6;
+}
+
+.audience-note {
+  margin-top: 40px;
+  text-align: center;
+  font-weight: 600;
+  color: #065f46;
+}

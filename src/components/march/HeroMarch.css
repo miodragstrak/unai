@@ -1,0 +1,77 @@
+.march-hero {
+  padding: 140px 20px 120px;
+  background: #f9fafb;
+  text-align: center;
+}
+
+.march-hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.march-hero h1 {
+  font-size: 44px;
+  font-weight: 700;
+  margin-bottom: 24px;
+  color: #111827;
+}
+
+.march-subtitle {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 36px;
+  color: #4b5563;
+}
+
+.march-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.march-primary-btn {
+  padding: 14px 28px;
+  font-size: 16px;
+  font-weight: 600;
+  background: #16a34a;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.march-primary-btn:hover {
+  background: #15803d;
+}
+
+.march-secondary-btn {
+  padding: 14px 28px;
+  font-size: 16px;
+  font-weight: 600;
+  background: transparent;
+  border: 2px solid #16a34a;
+  color: #16a34a;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.march-secondary-btn:hover {
+  background: #16a34a;
+  color: white;
+}
+
+.march-meta {
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.march-badge {
+  margin-top: 12px;
+  font-size: 14px;
+  color: #065f46;
+  font-weight: 600;
+}

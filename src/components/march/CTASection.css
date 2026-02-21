@@ -1,0 +1,43 @@
+.march-cta {
+  padding: 120px 20px;
+  background: #16a34a;
+  color: white;
+  text-align: center;
+}
+
+.march-cta-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.march-cta h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.march-cta p {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.march-cta-button {
+  padding: 16px 36px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 6px;
+  border: none;
+  background: white;
+  color: #16a34a;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.march-cta-button:hover {
+  background: #f0fdf4;
+}
+
+.cta-small {
+  margin-top: 30px;
+  font-size: 13px;
+  opacity: 0.85;
+}

@@ -324,6 +324,27 @@ ul li::before {
   backdrop-filter: blur(20px);
 }
 
+/* Navbar navigation links */
+.nav-link {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font: inherit;
+  color: #1f2937;
+  padding: 6px 10px;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #16a34a;
+}
+
+.navbar .nav-link {
+  background: none;
+  border: none;
+}
+
 /* =========================
    LANGUAGE SWITCHER
 ========================= */

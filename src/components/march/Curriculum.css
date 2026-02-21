@@ -1,0 +1,97 @@
+.curriculum-programs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 60px;
+}
+
+.curriculum-program {
+  background: #f9fafb;
+  padding: 40px;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+}
+
+.curriculum-program h3 {
+  font-size: 20px;
+  margin-bottom: 6px;
+  color: #111827;
+}
+
+.program-subtitle {
+  font-size: 15px;
+  margin-bottom: 24px;
+  color: #4b5563;
+  min-height: 48px; /* DODATO */
+}
+
+.curriculum-program.advanced {
+  border: 2px solid #16a34a;
+  background: linear-gradient(180deg, #f0fdf4 0%, #ffffff 100%);
+  box-shadow: 0 10px 30px rgba(22, 163, 74, 0.08);
+}
+
+.curriculum-weeks {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.week-block {
+  padding: 16px 18px;
+  background: white;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+}
+
+.week-block h4 {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #16a34a;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.week-block ul {
+  padding-left: 18px;
+  font-size: 13px;
+  color: #374151;
+  line-height: 1.6;
+}
+
+.week-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.week-number {
+  min-width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #16a34a;
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0; /* KLJUČNO */
+}
+
+.week-header h4 {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0;
+  white-space: nowrap; /* KLJUČNO */
+}
+
+.curriculum-program.advanced .week-number {
+  background: #065f46;
+}
+
+.march-curriculum-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}

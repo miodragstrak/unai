@@ -4,9 +4,31 @@ import UkFlag from "../assets/ukflag.svg";
 import RsFlag from "../assets/srbflag.svg";
 import Logo from "../assets/undai-logo.svg";
 import { CALENDLY_FREE } from "../config";
+import { Link, useNavigate, useLocation } from "react-router-dom";
 
 export default function Navbar() {
+
   const { t, i18n } = useTranslation();
+
+  const navigate = useNavigate();
+  const location = useLocation();
+
+  const handleNavClick = (id) => {
+    if (location.pathname === "/") {
+      const element = document.getElementById(id);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    } else {
+      navigate("/");
+      setTimeout(() => {
+        const element = document.getElementById(id);
+        if (element) {
+          element.scrollIntoView({ behavior: "smooth" });
+        }
+      }, 100);
+    }
+  };
 
   const changeLang = (lang) => {
     i18n.changeLanguage(lang);
@@ -29,14 +51,19 @@ export default function Navbar() {
       <div className="navbar-content">
 
         {/* LOGO */}
-        <div className="navbar-logo">
+        <Link to="/" className="navbar-logo">
           <img src={Logo} alt="UnAI Logo" style={{ height: "50px" }} />
-        </div>
+        </Link>
 
         {/* LINKS */}
         <div className="navbar-links">
-          <a href="#home">{t("navbar.home")}</a>
-          <a href="#collaboration">{t("navbar.programs")}</a>
+          <button className="nav-link" onClick={() => handleNavClick("home")}>
+            {t("navbar.home")}
+          </button>
+
+          <button className="nav-link" onClick={() => handleNavClick("collaboration")}>
+            {t("navbar.programs")}
+          </button>
 
           <div className="lang-switcher">
             <img

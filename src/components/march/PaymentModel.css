@@ -1,0 +1,60 @@
+.march-payment {
+  padding: 100px 20px;
+  background: #f9fafb;
+}
+
+.march-payment-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.march-section-title {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 60px;
+  color: #111827;
+}
+
+.march-payment-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 40px;
+}
+
+.payment-card {
+  background: white;
+  padding: 40px 30px;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+}
+
+.payment-card h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #111827;
+}
+
+.payment-card p {
+  margin-bottom: 16px;
+  color: #374151;
+  line-height: 1.6;
+}
+
+.payment-highlight {
+  margin-top: 20px;
+  padding: 16px;
+  background: #f0fdf4;
+  border-left: 4px solid #16a34a;
+  font-weight: 600;
+  color: #065f46;
+}
+
+.payment-steps {
+  padding-left: 18px;
+  color: #374151;
+  line-height: 1.7;
+}
+
+.payment-steps li {
+  margin-bottom: 10px;
+}
