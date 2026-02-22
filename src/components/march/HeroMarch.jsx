@@ -4,11 +4,11 @@ export default function HeroMarch() {
   return (
     <section className="march-hero">
       <div className="march-hero-content">
-        <h1>UnAI – Mart 2026</h1>
+        <h1>UnAI - Mart 2026</h1>
 
         <p className="march-subtitle">
           Praktična AI obuka kroz 4 nedelje fokusiranog rada.
-          Naučite kako da AI koristite sistematski – u poslu i svakodnevnom radu.
+          Naučite kako da AI koristite sistematski - u poslu i svakodnevnom radu.
         </p>
 
         <div className="march-buttons">

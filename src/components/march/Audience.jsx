@@ -21,7 +21,7 @@ export default function Audience() {
           <div className="audience-card">
             <h3>Zaposleni</h3>
             <p>
-              Koji žele da rade brže, organizovanije i sa većom vrednošću za poslodavca.
+              Koji žele da rade brže, organizovanije i efikasnije.
             </p>
           </div>
 

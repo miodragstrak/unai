@@ -14,11 +14,11 @@ export default function Certificate() {
 
         <p>
           Sertifikat potvrđuje stečeno znanje i može biti dodat profesionalnom
-          CV-u, LinkedIn profilu ili internom razvoju karijere.
+          CV-u, LinkedIn profilu...
         </p>
 
         <div className="certificate-highlight">
-          Fokus programa je praktična primena – znanje koje odmah možete koristiti.
+          Fokus programa je praktična primena - znanje koje odmah možete koristiti.
         </div>
 
       </div>

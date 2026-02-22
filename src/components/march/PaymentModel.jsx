@@ -23,7 +23,7 @@ export default function PaymentModel() {
             </p>
 
             <p>
-              Preostalih 50% se plaća najkasnije do drugog susreta.
+              Preostalih 50% se plaća najkasnije do kraja kursa - pre dobijanja sertifikata.
             </p>
 
             <div className="payment-highlight">

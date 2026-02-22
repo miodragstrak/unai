@@ -11,7 +11,7 @@ export default function CTASection() {
 
         <p>
           Mart 2026 grupa se formira uskoro.
-          Ako želite sistemsko razumevanje AI alata —
+          Ako želite sistemsko razumevanje AI alata -
           rezervišite svoje mesto na vreme.
         </p>
 

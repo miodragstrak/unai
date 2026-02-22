@@ -6,7 +6,7 @@ export default function ProgramDetails() {
       <div className="march-programs-container">
 
         <h2 className="march-section-title">
-          Programi – Mart 2026
+          Programi - Mart 2026
         </h2>
 
         <div className="march-programs-grid">
@@ -26,11 +26,11 @@ export default function ProgramDetails() {
             <div className="program-pricing">
               <div>
                 <span className="price-label">Uživo</span>
-                <span className="price-value">15.000 RSD</span>
+                <span className="price-value">19.900 RSD</span>
               </div>
               <div>
                 <span className="price-label">Zoom</span>
-                <span className="price-value">12.000 RSD</span>
+                <span className="price-value">14.900 RSD</span>
               </div>
             </div>
 
@@ -57,18 +57,18 @@ export default function ProgramDetails() {
             </p>
 
             <div className="program-dates">
-              <p><strong>Uživo:</strong> Isti termini (odvojena grupa)</p>
-              <p><strong>Zoom:</strong> Isti termini (odvojena grupa)</p>
+              <p><strong>Uživo:</strong> 14, 21, 28 mart + 4 april</p>
+              <p><strong>Zoom:</strong> 18, 25 mart + 1 i 8 april</p>
             </div>
 
             <div className="program-pricing">
               <div>
                 <span className="price-label">Uživo</span>
-                <span className="price-value">24.000 RSD</span>
+                <span className="price-value">34.900 RSD</span>
               </div>
               <div>
                 <span className="price-label">Zoom</span>
-                <span className="price-value">21.000 RSD</span>
+                <span className="price-value">24.900 RSD</span>
               </div>
             </div>
 
